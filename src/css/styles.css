@@ -18,17 +18,33 @@
 }
 
 .feedback-form label {
-    font-weight: bold;
-    display:flex;
-    flex-direction: column;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
 }
 
-button {
-    display: inline;
-    padding: 0.5em 1em;
-    background-color: #007bff;
-    color: white;
-    border: none;
+.feedback-form input,
+.feedback-form textarea{
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
     border-radius: 0.25em;
-    cursor: pointer;
+    width: auto; /* Ensure the input width is only as wide as its content */
+    align-self: flex-start; /* Align the input to the start of the flex container */
+}
+
+.feedback-form button {
+    
+	padding: 0.5em 1em;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 0.25em;
+	cursor: pointer;
+    width: auto;
+    align-self: flex-start;
+}
+
+.feedback-form button:hover {
+    background-color: #0056b3; /* Optional: Change background color on hover */
 }
