@@ -23,6 +23,7 @@ function onInput(event) {
     }
 }
 
+
 function onFormSubmit(event) {
     event.preventDefault(); // Prevent the default form submission behavior
     if (!emailInput.value.trim() || !feedbackInput.value.trim()) {
