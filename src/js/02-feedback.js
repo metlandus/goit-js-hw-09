@@ -12,6 +12,7 @@ const pageLoad = document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+
 // Öncelikle email ve feedback alanlarını dinleyen bir event listener ekleyin. Form submit edildiğinde, console'da "Form submitted!" yazısını görmelisiniz.
 function onInput(event) {
     if (emailInput.value.trim() && feedbackInput.value.trim()) {
